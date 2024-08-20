@@ -1,3 +1,13 @@
+# ------------------------------------------------------------------------------
+# Author: [Your Name]
+# Date: [Current Date]
+# Description: This script copies the Active Directory permissions (Access Control 
+#              Entries) for a specific group from a source Organizational Unit (OU) 
+#              to multiple target OUs. It logs the operations performed, including 
+#              backing up existing ACLs and verifying the permissions after applying 
+#              them to the target OUs.
+# ------------------------------------------------------------------------------
+
 # !! Before running the script, make sure you have the necessary permissions and that the Active Directory module is available in your PowerShell session. Modify the $sourceOU, $groupName, and $target
 
 # Define the Distinguished Name (DN) of your source OU
