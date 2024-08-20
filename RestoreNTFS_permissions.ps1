@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
-# Author: [Your Name]
-# Date: [Current Date]
+# Author: Ilya Fedotov
+# Date: 20.08.2024
 # Description: This script restores NTFS permissions for file paths based on 
 #              data imported from a CSV file. The CSV file should contain 
 #              the paths and their associated permissions. The script reads 
