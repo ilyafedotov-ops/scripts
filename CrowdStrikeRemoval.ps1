@@ -1,3 +1,14 @@
+# ------------------------------------------------------------------------------
+# Author: Ilya Fedotov
+# Date: 20.08.2024
+# Description: This script automates the removal of specific CrowdStrike files from 
+#              the OS disk of a list of Azure VMs. It creates a temporary VM to attach 
+#              and manipulate the OS disks from the target VMs, removing the specified 
+#              files. The script also handles the clean-up process by reattaching 
+#              the OS disk to the original VM and deleting the temporary VM after 
+#              the process is complete.
+# ------------------------------------------------------------------------------
+
 # Import the Azure module
 Import-Module Az
 
